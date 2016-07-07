@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-   return "Hello World";
+   return view('index');
 });
+
+Route::get('/hotel','HotelController@index');

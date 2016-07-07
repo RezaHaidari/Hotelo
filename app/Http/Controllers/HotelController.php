@@ -11,10 +11,13 @@ class HotelController extends Controller
     
     public function __construct()
     {
-        $this->middleware(['auth','manager']);
+        //$this->middleware(['auth','manager']);
     }
 
+    protected $basePath;
+
     public function index(){
-        return 'Hotel';
+
+        dd($this->basePath);
     }
 }
