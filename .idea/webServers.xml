@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d48f7610-94cd-472a-a840-72491bade8d7" name="pcfilm" url="http://pcfilm.in">
+        <fileTransfer host="pcfilm.in" port="21" password="dfc1df9adfc4df98dfc9dfe4df9fdfffdfdcdf92" username="pcfilmin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
