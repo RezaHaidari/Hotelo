@@ -17,7 +17,9 @@ class RedirectIfNotHotelManager
     public function handle($request, Closure $next)
     {
 
-        if(! $request->user()->isHotelManager()){
+        $user = $request->user();
+
+        if(! $user->isHotelManager()){
             return redirect('/');
         }
         return $next($request);

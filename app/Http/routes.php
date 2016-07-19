@@ -13,6 +13,11 @@
 
 Route::get('/', function () {
    return view('index');
+
 });
 
 Route::get('/hotel','HotelController@index');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
