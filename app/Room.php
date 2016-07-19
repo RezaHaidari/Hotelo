@@ -19,7 +19,4 @@ class Room extends Model
 
     public $fillable = ['number','status','type_id','price'];
 
-
-
-
 }
