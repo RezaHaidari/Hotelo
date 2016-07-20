@@ -3,7 +3,7 @@
 return [
     'theme'=>[
         'folder' => 'themes',
-        'active' => 'newTheme',
+        'active' => 'hotelo',
 
     ]
 ];

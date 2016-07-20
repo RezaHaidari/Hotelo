@@ -10,9 +10,17 @@ class User extends Authenticatable
      * The attributes that are mass assignable.
      *
      * @var array
+     * name
+     * password
+     * email
+     * postal_code -> User Postal Code
+     * telephone
+     * mobile
+     * access -> user access area :
+     * ['customer'->0,'officer'->1,'Manager'->2]
      */
     protected $fillable = [
-        'name', 'email', 'password','postal_code','telephone','mobile'
+        'name', 'email', 'password','postal_code','telephone','mobile','access'
     ];
 
     /**

@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-   return view('index');
-
-});
+Route::resource('/','FrontendController');
 
 Route::get('/hotel','HotelController@index');
 
