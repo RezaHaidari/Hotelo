@@ -21,7 +21,7 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="/dist/css/skins/_all-skins.min.css">
 
-    <link rel="stylesheet" href="/dist/css/rtl.css?v=1.0">
+
     <!-- iCheck -->
     <link rel="stylesheet" href="/plugins/iCheck/flat/blue.css">
     <!-- Morris chart -->
@@ -41,6 +41,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="stylesheet" href="/dist/css/rtl.css?v=1.0">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -51,7 +53,7 @@
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini">SH P</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"> سامانه<b>هتلو</b></span>
+            <span class="logo-lg">سامانه <b>هتلو</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">

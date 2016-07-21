@@ -1,4 +1,12 @@
-/* -------------------------------- 
+@font-face {
+  font-family: 'iransans';
+  src: url('../fonts/IRANSans-web.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IRANSans-web.eot?#iefix') format('embedded-opentype'), /* 	IE6-IE8 */ url('../fonts/IRANSans-web.woff2') format('woff2'), /* Super Modern 	Browsers */ url('../fonts/IRANSans-web.woff') format('woff'), /* Pretty Modern 	Browsers */ url('../fonts/IRANSans-web.ttf') format('truetype') /* Safari, 	Android, iOS */
+
+}
+
+
+/  * --------------------------------
 
 Primary style
 
@@ -20,7 +28,7 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "iransans", sans-serif;
   color: #331d35;
   background-color: #e7e7e7;
 }
@@ -490,7 +498,7 @@ xcustom form elements
 .cd-filter-block .radio-label::before,
 .cd-filter-block .checkbox-label::before {
   /* shared style for input elements */
-  font-family: "Open Sans", sans-serif;
+  font-family: "iransans", sans-serif;
   border-radius: 0;
   background-color: #ffffff;
   border: 2px solid #e6e6e6;
@@ -1122,7 +1130,7 @@ Form
   display: block;
 }
 .cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
-  font-family: "Open Sans", sans-serif;
+  font-family: "iransans", sans-serif;
   font-size: 1.6rem;
   color: #2b3e51;
 }

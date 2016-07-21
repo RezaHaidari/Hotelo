@@ -2,7 +2,7 @@
 
 <body>
 <header role="banner">
-    <div  id="cd-logo"><a style="color: #fff;" href="#0">Hotelo</a></div>
+    <div  id="cd-logo"><a style="color: #fff;" href="/">Hotelo</a></div>
 
     <nav class="main-nav">
 
@@ -14,10 +14,12 @@
                 <!-- inser more links here -->
                 <li><a class="cd-signin" href="#0">ورود</a></li>
                 <li><a class="cd-signup" href="#0">ثبت نام</a></li>
+                    <li><a class="cd-signup" href="/user/hire">استخدام</a></li>
 
                 @else
 
                 <li><a class="cd-signup" href="/">مشاهده پروفایل</a></li>
+                    <li><a class="cd-signup" href="/user/logout">خروج</a></li>
 
                 @endif
             </ul>
