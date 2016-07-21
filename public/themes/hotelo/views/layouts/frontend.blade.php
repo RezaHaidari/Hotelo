@@ -2,14 +2,32 @@
 
 <body>
 <header role="banner">
-    <div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
+    <div  id="cd-logo"><a style="color: #fff;" href="#0">Hotelo</a></div>
 
     <nav class="main-nav">
-        <ul>
-            <!-- inser more links here -->
-            <li><a class="cd-signin" href="#0">Sign in</a></li>
-            <li><a class="cd-signup" href="#0">Sign up</a></li>
-        </ul>
+
+
+
+            <ul>
+
+            @if(!Auth::user())
+                <!-- inser more links here -->
+                <li><a class="cd-signin" href="#0">ورود</a></li>
+                <li><a class="cd-signup" href="#0">ثبت نام</a></li>
+
+                @else
+
+                <li><a class="cd-signup" href="/">مشاهده پروفایل</a></li>
+
+                @endif
+            </ul>
+
+
+
+
+
+
+
     </nav>
 </header>
 

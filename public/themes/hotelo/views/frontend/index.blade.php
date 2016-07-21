@@ -8,19 +8,37 @@
                 <li class="placeholder">
                     <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
                 </li>
-                <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-                <li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Color 1</a></li>
-                <li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Color 2</a></li>
+                <li class="filter"><a class="selected" href="#0" data-type="all">همه</a></li><li class="filter" data-filter=".color-2">یک نفره<a href="#0" data-type="color-2">دو نفره</a></li>
             </ul> <!-- cd-filters -->
         </div> <!-- cd-tab-filter -->
     </div> <!-- cd-tab-filter-wrapper -->
 
     <section class="cd-gallery">
         <ul>
-            <li class="mix color-1 check1 radio2 option3">
+            <li>
+                <header class="cd-pricing-header">
+                    <h2>Popular</h2>
 
-                <img src="{{theme('frontend/img/img-1.jpg')}}" alt="image 1">
+                    <div class="cd-price">
+                        <span>$19.99</span>
+                        <span>month</span>
+                    </div>
+                </header> <!-- .cd-pricing-header -->
+
+                <div class="cd-pricing-features">
+                    <ul>
+                        <li class="available"><em>Feature 1</em></li>
+                        <li class="available"><em>Feature 2</em></li>
+                        <li><em>Feature 3</em></li>
+                        <li><em>Feature 4</em></li>
+                    </ul>
+                </div> <!-- .cd-pricing-features -->
+
+                <footer class="cd-pricing-footer">
+                    <a href="#0">Select</a>
+                </footer> <!-- .cd-pricing-footer -->
             </li>
+
             <li class="mix color-1 check1 radio2 option3">
                 <img src="{{theme('frontend/img/img-2.jpg')}}" alt="image 1">
             </li>

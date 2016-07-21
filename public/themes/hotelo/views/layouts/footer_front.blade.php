@@ -7,8 +7,8 @@
 <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
     <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
         <ul class="cd-switcher">
-            <li><a href="#0">Sign in</a></li>
-            <li><a href="#0">New account</a></li>
+            <li><a href="#0">ورود </a></li>
+            <li><a href="#0">ساخت اکانت جدید</a></li>
         </ul>
 
         <div id="cd-login"> <!-- log in form -->
