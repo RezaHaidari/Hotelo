@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Type extends Model
+class Feature extends Model
 {
 
-    protected $table = 'types';
+    protected $table = 'features';
 
     public $fillable = ['title','label'];
 

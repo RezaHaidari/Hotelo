@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use App\User;
 use Closure;
+use Illuminate\Support\Facades\Gate;
 
 class RedirectIfNotHotelManager
 {
@@ -14,12 +15,17 @@ class RedirectIfNotHotelManager
      * @param  \Closure  $next
      * @return mixed
      */
+
     public function handle($request, Closure $next)
     {
 
-        $user = $request->user();
+//        $user = $request->user();
+//
+//        if(! $user->isHotelManager()){
+//            return redirect('/');
+//        }
 
-        if(! $user->isHotelManager()){
+        if (!Gate::allows('admin')) {
             return redirect('/');
         }
         return $next($request);

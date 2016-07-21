@@ -137,4 +137,13 @@
 
     <a href="#0" class="cd-filter-trigger">Filters</a>
 
+    <script>
+        @if(session('error'))
+            alert("{{session('error')}}")
+        @endif
+        @if(session('message'))
+            alert("{{session('message')}}")
+        @endif
+    </script>
+
 @stop
